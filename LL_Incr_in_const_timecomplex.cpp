@@ -60,8 +60,6 @@ LinkedListNode<int>* addOneToList(LinkedListNode<int> *head)
 
 int main(){
     LinkedListNode<int>* head= new  LinkedListNode<int>(9) ;
-    int n;
-    cin>>n;
         LinkedListNode<int>* temp=new  LinkedListNode<int>(0);
         head->next=temp;
         LinkedListNode<int>* emp_new=new LinkedListNode<int>(0);
